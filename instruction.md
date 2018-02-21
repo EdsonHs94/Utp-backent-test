@@ -19,7 +19,7 @@ Algunas instrucciones a tener en cuenta:
 - Elegir el lenguaje y el framework de su preferencia.
 - Elegir la BD de su preferencia 
 - Elegir los servicios adicionales de su preferencia.
-- **Tiempo máximo:** 24 horas 
+- **Tiempo máximo:** 2 horas 
 
 ## 1. Funcionalidades basicas
 
@@ -27,7 +27,7 @@ Algunas instrucciones a tener en cuenta:
 
 Se desea que el API sea restringido mediante algún método de autenticación basica.
 
-** Endpoints para Notas **
+**Endpoints para Notas**
 
 Se desea crear endpoints para poder administrar **notas** (crear y listar), los datos se guardará en una base de datos 
 
