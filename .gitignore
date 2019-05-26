@@ -1,0 +1,17 @@
+logs/
+*__pycache__/
+*Pipfile.lock
+*.vscode/
+*.xz
+*.idea/
+*env/
+data/
+docker/mysql/initdb/
+*.orig
+
+*.private.yml
+.pytest_cache
+htmlcov
+.coverage
+app/__init__.py
+app/build/
