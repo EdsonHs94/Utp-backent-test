@@ -1,11 +1,17 @@
 import falcon
 import json
+
+from notes.application.framewoork.authorization import Authorization
 from notes.application.services.notes import GetAllNotesService, SaveNotesService
 
 
 class FalconApi:
     def __init__(self):
-        self.api = falcon.API()
+        self.api = falcon.API(
+            middleware=[
+                Authorization()
+            ],
+        )
         self.api.add_route('/', HomeHandler())
         self.api.add_route('/notes', NotesHandler())
 
